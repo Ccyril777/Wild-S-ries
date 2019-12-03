@@ -67,12 +67,9 @@ class __TwigTemplate_8d93ca148ab4cc50bee40200d14ad3b1e4246c44f4da03d1075bcb6c936
         </button>
         <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
             <ul class=\"navbar-nav mr-auto\">
-                <li class=\"nav-item active\">
-                    <a class=\"nav-link\" href=\"#\">Tendance<span class=\"sr-only\">(current)</span></a>
-                </li>
                 <li class=\"nav-item\">
                     <a class=\"nav-link\" href=\"";
-        // line 13
+        // line 10
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("wild_index");
         echo "\">Séries</a>
                 </li>
@@ -82,11 +79,9 @@ class __TwigTemplate_8d93ca148ab4cc50bee40200d14ad3b1e4246c44f4da03d1075bcb6c936
                     </a>
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
                         <a class=\"dropdown-item\" href=\"category/horreur\">Horreur</a>
-                        <a class=\"dropdown-item\" href=\"#\">???</a>
-                        <a class=\"dropdown-item\" href=\"#\">???</a>
-                        <a class=\"dropdown-item\" href=\"#\">???</a>
-                        <div class=\"dropdown-divider\"></div>
-                        <a class=\"dropdown-item\" href=\"#\">Vous n'avez pas votre catégorie favorite ?</a>
+                        <a class=\"dropdown-item\" href=\"#\">- Une nouvelle catégorie va arriver ! -</a>
+                        <a class=\"dropdown-item\" href=\"#\">- Une nouvelle catégorie va arriver ! -</a>
+                        <a class=\"dropdown-item\" href=\"#\">- Une nouvelle catégorie va arriver ! -</a>
                     </div>
                 </li>
                 <li class=\"nav-item dropdown\">
@@ -96,10 +91,8 @@ class __TwigTemplate_8d93ca148ab4cc50bee40200d14ad3b1e4246c44f4da03d1075bcb6c936
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
                         <a class=\"dropdown-item\" href=\"series/the-walking-dead\">The Walking Dead</a>
                         <a class=\"dropdown-item\" href=\"series/the-haunting-of-hill-house\">The Haunting Of Hill House</a>
-                        <a class=\"dropdown-item\" href=\"#\">???</a>
-                        <a class=\"dropdown-item\" href=\"#\">???</a>
-                        <div class=\"dropdown-divider\"></div>
-                        <a class=\"dropdown-item\" href=\"#\">Vous n'avez pas votre catégorie favorite ?</a>
+                        <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
+                        <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
                     </div>
                 </li>
                 <li class=\"nav-item\">
@@ -131,7 +124,7 @@ class __TwigTemplate_8d93ca148ab4cc50bee40200d14ad3b1e4246c44f4da03d1075bcb6c936
 
     public function getDebugInfo()
     {
-        return array (  76 => 13,  63 => 2,  44 => 1,);
+        return array (  73 => 10,  63 => 2,  44 => 1,);
     }
 
     public function getSourceContext()
@@ -144,9 +137,6 @@ class __TwigTemplate_8d93ca148ab4cc50bee40200d14ad3b1e4246c44f4da03d1075bcb6c936
         </button>
         <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
             <ul class=\"navbar-nav mr-auto\">
-                <li class=\"nav-item active\">
-                    <a class=\"nav-link\" href=\"#\">Tendance<span class=\"sr-only\">(current)</span></a>
-                </li>
                 <li class=\"nav-item\">
                     <a class=\"nav-link\" href=\"{{ path('wild_index') }}\">Séries</a>
                 </li>
@@ -156,11 +146,9 @@ class __TwigTemplate_8d93ca148ab4cc50bee40200d14ad3b1e4246c44f4da03d1075bcb6c936
                     </a>
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
                         <a class=\"dropdown-item\" href=\"category/horreur\">Horreur</a>
-                        <a class=\"dropdown-item\" href=\"#\">???</a>
-                        <a class=\"dropdown-item\" href=\"#\">???</a>
-                        <a class=\"dropdown-item\" href=\"#\">???</a>
-                        <div class=\"dropdown-divider\"></div>
-                        <a class=\"dropdown-item\" href=\"#\">Vous n'avez pas votre catégorie favorite ?</a>
+                        <a class=\"dropdown-item\" href=\"#\">- Une nouvelle catégorie va arriver ! -</a>
+                        <a class=\"dropdown-item\" href=\"#\">- Une nouvelle catégorie va arriver ! -</a>
+                        <a class=\"dropdown-item\" href=\"#\">- Une nouvelle catégorie va arriver ! -</a>
                     </div>
                 </li>
                 <li class=\"nav-item dropdown\">
@@ -170,10 +158,8 @@ class __TwigTemplate_8d93ca148ab4cc50bee40200d14ad3b1e4246c44f4da03d1075bcb6c936
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
                         <a class=\"dropdown-item\" href=\"series/the-walking-dead\">The Walking Dead</a>
                         <a class=\"dropdown-item\" href=\"series/the-haunting-of-hill-house\">The Haunting Of Hill House</a>
-                        <a class=\"dropdown-item\" href=\"#\">???</a>
-                        <a class=\"dropdown-item\" href=\"#\">???</a>
-                        <div class=\"dropdown-divider\"></div>
-                        <a class=\"dropdown-item\" href=\"#\">Vous n'avez pas votre catégorie favorite ?</a>
+                        <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
+                        <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
                     </div>
                 </li>
                 <li class=\"nav-item\">
@@ -189,6 +175,7 @@ class __TwigTemplate_8d93ca148ab4cc50bee40200d14ad3b1e4246c44f4da03d1075bcb6c936
             </form>
         </div>
     </nav>
-{% endblock %}", "wild/navbar.html.twig", "/home/salazhar/Documents/Symfony/Wild-Series/templates/wild/navbar.html.twig");
+{% endblock %}
+", "wild/navbar.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/templates/wild/navbar.html.twig");
     }
 }

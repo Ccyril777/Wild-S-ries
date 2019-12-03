@@ -66,7 +66,7 @@ class __TwigTemplate_9407de4e9ebdbb2ab818253f0b0907d671d1daae01ebdcec71b8c65b00d
 
         // line 4
         echo "    <section class=\"container-fluid media\">
-            <h2 class=\"mt-0\">Categorie : ";
+            <h2 class=\"mt-0\">Catégorie : ";
         // line 5
         echo twig_escape_filter($this->env, (isset($context["categoryName"]) || array_key_exists("categoryName", $context) ? $context["categoryName"] : (function () { throw new RuntimeError('Variable "categoryName" does not exist.', 5, $this->source); })()), "html", null, true);
         echo "</h2>
@@ -139,7 +139,7 @@ class __TwigTemplate_9407de4e9ebdbb2ab818253f0b0907d671d1daae01ebdcec71b8c65b00d
 
 {% block category %}
     <section class=\"container-fluid media\">
-            <h2 class=\"mt-0\">Categorie : {{ categoryName }}</h2>
+            <h2 class=\"mt-0\">Catégorie : {{ categoryName }}</h2>
             {% for program in programs %}
             <div class=\"mt-5 px-3\">
                 <div class=\"card mb-3 pt-3 col-xl-8 mx-auto\">
@@ -156,6 +156,6 @@ class __TwigTemplate_9407de4e9ebdbb2ab818253f0b0907d671d1daae01ebdcec71b8c65b00d
         Retour à l'accueil
     </a>
 {% endblock %}
-", "wild/category.html.twig", "/home/salazhar/Documents/Symfony/Wild-Series/templates/wild/category.html.twig");
+", "wild/category.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/templates/wild/category.html.twig");
     }
 }

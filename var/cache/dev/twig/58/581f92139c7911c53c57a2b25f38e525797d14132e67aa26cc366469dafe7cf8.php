@@ -85,7 +85,7 @@ class __TwigTemplate_491bc3ead633fe609c1fdfa178ce2173d47a827f03e23b4c86bd2db36ab
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <h1>Toutes les séries de la table program : </h1>
+        echo "    <h1>Toutes nos séries : </h1>
     ";
         // line 7
         $context['_parent'] = $context;
@@ -145,19 +145,6 @@ class __TwigTemplate_491bc3ead633fe609c1fdfa178ce2173d47a827f03e23b4c86bd2db36ab
         echo "\">
         Retour à l'accueil
     </a>
-    <a href=\"";
-        // line 18
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("wild_show", ["slug" => "walking-dead"]);
-        echo "\">
-        Testing show() method from WildController with a real program s slug.
-    </a>
-    <br>
-    <a href=\"";
-        // line 22
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("wild_index");
-        echo "\">
-        Testing index() method from WildController to view all programs.
-    </a>
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -179,7 +166,7 @@ class __TwigTemplate_491bc3ead633fe609c1fdfa178ce2173d47a827f03e23b4c86bd2db36ab
 
     public function getDebugInfo()
     {
-        return array (  157 => 22,  150 => 18,  143 => 15,  136 => 13,  120 => 10,  112 => 9,  109 => 8,  91 => 7,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  143 => 15,  136 => 13,  120 => 10,  112 => 9,  109 => 8,  91 => 7,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -189,7 +176,7 @@ class __TwigTemplate_491bc3ead633fe609c1fdfa178ce2173d47a827f03e23b4c86bd2db36ab
 {% block title %}All programs{% endblock %}
 
 {% block body %}
-    <h1>Toutes les séries de la table program : </h1>
+    <h1>Toutes nos séries : </h1>
     {% for program in programs %}
         <div>
             <h2>{{ loop.index }} / {{ program.title }} - Catégorie : {{ program.category.name }}</h2>
@@ -201,13 +188,7 @@ class __TwigTemplate_491bc3ead633fe609c1fdfa178ce2173d47a827f03e23b4c86bd2db36ab
     <a href=\"{{ path('app_index') }}\">
         Retour à l'accueil
     </a>
-    <a href=\"{{ path('wild_show', { 'slug': \"walking-dead\" }) }}\">
-        Testing show() method from WildController with a real program s slug.
-    </a>
-    <br>
-    <a href=\"{{ path('wild_index') }}\">
-        Testing index() method from WildController to view all programs.
-    </a>
-{% endblock %}", "wild/index.html.twig", "/home/salazhar/Documents/Symfony/Wild-Series/templates/wild/index.html.twig");
+{% endblock %}
+", "wild/index.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/templates/wild/index.html.twig");
     }
 }

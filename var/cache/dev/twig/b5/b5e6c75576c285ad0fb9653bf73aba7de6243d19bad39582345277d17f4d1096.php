@@ -85,7 +85,7 @@ class __TwigTemplate_4f7164a42967d0f8edecadbb4b7ed55a5cf4ab2264e6cda3fa4c87f8f7b
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <h1>Toutes les séries de la table program : </h1>
+        echo "    <h1>Toutes nos séries : </h1>
     ";
         // line 7
         $context['_parent'] = $context;
@@ -147,7 +147,7 @@ class __TwigTemplate_4f7164a42967d0f8edecadbb4b7ed55a5cf4ab2264e6cda3fa4c87f8f7b
 {% block title %}Bon Choix !{% endblock %}
 
 {% block body %}
-    <h1>Toutes les séries de la table program : </h1>
+    <h1>Toutes nos séries : </h1>
     {% for seasons in programs %}
         <div>
             <p>{{ seasons.id }}</p>
@@ -158,6 +158,7 @@ class __TwigTemplate_4f7164a42967d0f8edecadbb4b7ed55a5cf4ab2264e6cda3fa4c87f8f7b
     <a href=\"{{ path('app_index') }}\">
         Retour à l'accueil
     </a>
-{% endblock %}", "wild/series.html.twig", "/home/salazhar/Documents/Symfony/Wild-Series/templates/wild/series.html.twig");
+{% endblock %}
+", "wild/series.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/templates/wild/series.html.twig");
     }
 }

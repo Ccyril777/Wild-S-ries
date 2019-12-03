@@ -69,7 +69,7 @@ class __TwigTemplate_dd20ab490c5e2b2d89e19e5b650b67ccebd8b36c7088d3b7d7ca3afe94b
     <html lang=\"en\">
         <head>
             <meta charset=\"UTF-8\">
-            <title>Document</title>
+            <title>Wild Séries</title>
         </head>
         <body>
             <h1>";
@@ -111,12 +111,13 @@ class __TwigTemplate_dd20ab490c5e2b2d89e19e5b650b67ccebd8b36c7088d3b7d7ca3afe94b
     <html lang=\"en\">
         <head>
             <meta charset=\"UTF-8\">
-            <title>Document</title>
+            <title>Wild Séries</title>
         </head>
         <body>
             <h1>{{ welcome }}</h1>
         </body>
     </html>
-{% endblock %}", "wild/home.html.twig", "/home/salazhar/Documents/Symfony/Wild-Series/templates/wild/home.html.twig");
+{% endblock %}
+", "wild/home.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/templates/wild/home.html.twig");
     }
 }
