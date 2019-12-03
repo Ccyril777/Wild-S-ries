@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bon Choix !{% endblock %}
+
+{% block body %}
+    <h1>Toutes nos séries : </h1>
+    {% for seasons in programs %}
+        <div>
+            <p>{{ seasons.id }}</p>
+        </div>
+    {% else %}
+        Aucune série trouvée.
+    {% endfor %}
+    <a href="{{ path('app_index') }}">
+        Retour à l'accueil
+    </a>
+{% endblock %}

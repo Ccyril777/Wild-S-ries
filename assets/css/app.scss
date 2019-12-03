@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: royalblue;
+    color: black;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.progsize {
+    width: 250px;
+    height: 300px;
+    color: black;
+}
+
+.retour {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+nav{
+    background-color: aliceblue;
+}
+
+$theme-colors: (
+        "primary": #61affc,
+        "secondary": #fcb161
+);
+
+$theme-colors : ( "custom-color" : #000000 );
+$theme-colors : ( "custom-color" : #FFFFFF );
