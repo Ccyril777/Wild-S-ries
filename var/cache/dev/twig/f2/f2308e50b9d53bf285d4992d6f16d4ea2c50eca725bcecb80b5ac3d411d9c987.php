@@ -155,6 +155,6 @@ class __TwigTemplate_96f760f4fc4cff257319642e6f3324bfa11dedf6b972a969ac965e22093
         Retour à l'accueil
     </a>
 {% endblock %}
-", "wild/show.html.twig", "/home/sheitak/Wild Series/wild-series/templates/wild/show.html.twig");
+", "wild/show.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/templates/wild/show.html.twig");
     }
 }

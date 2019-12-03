@@ -38,11 +38,8 @@ return [
                     .')'
                 .')'
                 .'|/wild/(?'
-                    .'|s(?'
-                        .'|how(?:/([a-z0-9-]+))?(*:203)'
-                        .'|eries/([^/]++)(*:225)'
-                    .')'
-                    .'|category(?:/([a-z]+))?(*:256)'
+                    .'|show(?:/([a-z0-9-]+))?(*:200)'
+                    .'|category(?:/([a-z]+))?(*:230)'
                 .')'
             .')/?$}sDu',
     ],
@@ -54,9 +51,8 @@ return [
         136 => [[['_route' => '_profiler_exception', '_controller' => 'web_profiler.controller.exception::showAction'], ['token'], null, null, false, false, null]],
         149 => [[['_route' => '_profiler_exception_css', '_controller' => 'web_profiler.controller.exception::cssAction'], ['token'], null, null, false, false, null]],
         159 => [[['_route' => '_profiler', '_controller' => 'web_profiler.controller.profiler::panelAction'], ['token'], null, null, false, true, null]],
-        203 => [[['_route' => 'wild_show', 'slug' => null, '_controller' => 'App\\Controller\\WildController::show'], ['slug'], null, null, false, true, null]],
-        225 => [[['_route' => 'wild_series', '_controller' => 'App\\Controller\\WildController::showBySeason'], ['programName'], null, null, false, true, null]],
-        256 => [
+        200 => [[['_route' => 'wild_show', 'slug' => null, '_controller' => 'App\\Controller\\WildController::show'], ['slug'], null, null, false, true, null]],
+        230 => [
             [['_route' => 'wild_show_category', 'categoryName' => null, '_controller' => 'App\\Controller\\WildController::showByCategory'], ['categoryName'], null, null, false, true, null],
             [null, null, null, null, false, false, 0],
         ],
