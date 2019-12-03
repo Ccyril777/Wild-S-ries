@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use App\Entity\Category;
 use App\Entity\Program;
 use App\Entity\Episodes;
-use App\Entity\Season;
+use App\Entity\Season; 
 
 /**
  * @Route("/wild", name="wild_")
