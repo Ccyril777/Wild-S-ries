@@ -97,6 +97,6 @@ class __TwigTemplate_5e1e38955bfbab9b7bab00e3f5d0cc72e550d50f70eb033703f645ad81e
         </div>
     </div>
 </div>
-", "@WebProfiler/Profiler/header.html.twig", "/home/salazhar/Documents/Symfony/Wild-Series/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/header.html.twig");
+", "@WebProfiler/Profiler/header.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/header.html.twig");
     }
 }

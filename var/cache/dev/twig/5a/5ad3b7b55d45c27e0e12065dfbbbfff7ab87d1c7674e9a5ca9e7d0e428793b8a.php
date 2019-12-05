@@ -79,6 +79,6 @@ class __TwigTemplate_5a305b987335346ba76bd06097156916eb1bb0cde64f8d0f1754bbb41cb
         return new Source("<?xml version=\"1.0\" encoding=\"{{ _charset }}\" ?>
 
 <error code=\"{{ status_code }}\" message=\"{{ status_text }}\" />
-", "@Twig/Exception/error.xml.twig", "/home/salazhar/Documents/Symfony/Wild-Series/vendor/symfony/twig-bundle/Resources/views/Exception/error.xml.twig");
+", "@Twig/Exception/error.xml.twig", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/twig-bundle/Resources/views/Exception/error.xml.twig");
     }
 }

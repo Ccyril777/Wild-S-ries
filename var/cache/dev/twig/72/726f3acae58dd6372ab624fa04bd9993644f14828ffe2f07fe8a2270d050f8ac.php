@@ -228,6 +228,6 @@ class __TwigTemplate_e96148d1be29c7c90394d92c6d430641fe88dd42c9d2fa978fa06cfa99e
         <script src=\"build/js/app.js\"></script>
     </body>
 </html>
-", "base.html.twig", "/home/salazhar/Documents/Symfony/Wild-Series/templates/base.html.twig");
+", "base.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/templates/base.html.twig");
     }
 }

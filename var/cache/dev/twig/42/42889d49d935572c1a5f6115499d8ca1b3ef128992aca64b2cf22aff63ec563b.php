@@ -266,6 +266,6 @@ class __TwigTemplate_1cdab412ccc123883fc8e6eeb7032f74d2d91d1c2de3a2d9f734ecd1df8
         {{- form_rest(form) -}}
     </table>
 {%- endblock form_widget_compound -%}
-", "form_table_layout.html.twig", "/home/salazhar/Documents/Symfony/Wild-Series/vendor/symfony/twig-bridge/Resources/views/Form/form_table_layout.html.twig");
+", "form_table_layout.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/twig-bridge/Resources/views/Form/form_table_layout.html.twig");
     }
 }

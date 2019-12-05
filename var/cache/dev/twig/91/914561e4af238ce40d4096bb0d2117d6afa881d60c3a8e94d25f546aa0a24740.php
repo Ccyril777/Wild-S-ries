@@ -75,6 +75,6 @@ class __TwigTemplate_a2b724393918b5bafcbb6b5015eaca699f65af6ba25b97da95ccc57f979
         <?php endforeach; ?>
     </ul>
 <?php endif ?>
-", "@Framework/Form/form_errors.html.php", "/home/salazhar/Documents/Symfony/Wild-Series/vendor/symfony/framework-bundle/Resources/views/Form/form_errors.html.php");
+", "@Framework/Form/form_errors.html.php", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/framework-bundle/Resources/views/Form/form_errors.html.php");
     }
 }

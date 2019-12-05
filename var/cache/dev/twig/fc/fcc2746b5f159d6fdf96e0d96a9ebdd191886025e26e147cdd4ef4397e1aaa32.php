@@ -635,6 +635,6 @@ class __TwigTemplate_65d91658d2a34d545c5e34fcbe3d238e36ebda943c25fa0e54157f1ab28
     });
 
 /*]]>*/</script>
-", "@Twig/base_js.html.twig", "/home/salazhar/Documents/Symfony/Wild-Series/vendor/symfony/twig-bundle/Resources/views/base_js.html.twig");
+", "@Twig/base_js.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/twig-bundle/Resources/views/base_js.html.twig");
     }
 }

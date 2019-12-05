@@ -79,6 +79,6 @@ class __TwigTemplate_b2adeabda78d0b5de9f127f7eac69a16f8f8f04367df9b51c867cbdf994
 {{ status_code }} {{ status_text }}
 
 */
-", "@Twig/Exception/error.css.twig", "/home/salazhar/Documents/Symfony/Wild-Series/vendor/symfony/twig-bundle/Resources/views/Exception/error.css.twig");
+", "@Twig/Exception/error.css.twig", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/twig-bundle/Resources/views/Exception/error.css.twig");
     }
 }

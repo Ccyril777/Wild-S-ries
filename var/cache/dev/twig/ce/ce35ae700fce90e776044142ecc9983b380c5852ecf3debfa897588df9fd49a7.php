@@ -792,6 +792,6 @@ class __TwigTemplate_dcba2a54371c1c10399da3a28a32a0ce53602cde89623b912d8bf6f48a5
         </table>
     {% endif %}
 {% endblock %}
-", "@WebProfiler/Collector/config.html.twig", "/home/salazhar/Documents/Symfony/Wild-Series/vendor/symfony/web-profiler-bundle/Resources/views/Collector/config.html.twig");
+", "@WebProfiler/Collector/config.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/web-profiler-bundle/Resources/views/Collector/config.html.twig");
     }
 }

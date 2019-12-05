@@ -909,6 +909,6 @@ class __TwigTemplate_6c38bf0907079b475a750e15576730e9003a1a4b02d5c4b16b4e2a3e7c6
         {% endautoescape %}</script>
     </div>
 {% endmacro %}
-", "@WebProfiler/Collector/time.html.twig", "/home/salazhar/Documents/Symfony/Wild-Series/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.html.twig");
+", "@WebProfiler/Collector/time.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.html.twig");
     }
 }

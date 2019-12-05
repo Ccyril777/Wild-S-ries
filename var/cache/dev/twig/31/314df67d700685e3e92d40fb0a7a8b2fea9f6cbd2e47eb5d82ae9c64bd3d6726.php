@@ -78,7 +78,7 @@ class __TwigTemplate_8d93ca148ab4cc50bee40200d14ad3b1e4246c44f4da03d1075bcb6c936
                         Catégories
                     </a>
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
-                        <a class=\"dropdown-item\" href=\"category/horreur\">Horreur</a>
+                        <a class=\"dropdown-item\" href=\"/wild/category/horreur\">Horreur</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle catégorie va arriver ! -</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle catégorie va arriver ! -</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle catégorie va arriver ! -</a>
@@ -89,8 +89,8 @@ class __TwigTemplate_8d93ca148ab4cc50bee40200d14ad3b1e4246c44f4da03d1075bcb6c936
                         Séries
                     </a>
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
-                        <a class=\"dropdown-item\" href=\"series/the-walking-dead\">The Walking Dead</a>
-                        <a class=\"dropdown-item\" href=\"series/the-haunting-of-hill-house\">The Haunting Of Hill House</a>
+                        <a class=\"dropdown-item\" href=\"/wild/series/the-walking-dead\">The Walking Dead</a>
+                        <a class=\"dropdown-item\" href=\"/wild/series/the-haunting-of-hill-house\">The Haunting Of Hill House</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
                     </div>
@@ -145,7 +145,7 @@ class __TwigTemplate_8d93ca148ab4cc50bee40200d14ad3b1e4246c44f4da03d1075bcb6c936
                         Catégories
                     </a>
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
-                        <a class=\"dropdown-item\" href=\"category/horreur\">Horreur</a>
+                        <a class=\"dropdown-item\" href=\"/wild/category/horreur\">Horreur</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle catégorie va arriver ! -</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle catégorie va arriver ! -</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle catégorie va arriver ! -</a>
@@ -156,8 +156,8 @@ class __TwigTemplate_8d93ca148ab4cc50bee40200d14ad3b1e4246c44f4da03d1075bcb6c936
                         Séries
                     </a>
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
-                        <a class=\"dropdown-item\" href=\"series/the-walking-dead\">The Walking Dead</a>
-                        <a class=\"dropdown-item\" href=\"series/the-haunting-of-hill-house\">The Haunting Of Hill House</a>
+                        <a class=\"dropdown-item\" href=\"/wild/series/the-walking-dead\">The Walking Dead</a>
+                        <a class=\"dropdown-item\" href=\"/wild/series/the-haunting-of-hill-house\">The Haunting Of Hill House</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
                     </div>

@@ -86,26 +86,16 @@ class __TwigTemplate_b444b3e104f154ae20035f0aa48b76afc2cde8a6b2a928c5222bee95bf2
                 </li>
                 <li class=\"nav-item dropdown\">
                     <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
-                        Séries
+                        Saisons
                     </a>
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
                         <a class=\"dropdown-item\" href=\"/wild/series/the-walking-dead\">The Walking Dead</a>
-                        <a class=\"dropdown-item\" href=\"/wild/series/the-haunting-of-hill-house\">The Haunting Of Hill House</a>
+                        <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
                     </div>
                 </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link disabled\" href=\"#\">Saisons</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link disabled\" href=\"#\">Années</a>
-                </li>
             </ul>
-            <form class=\"form-inline my-2 my-lg-0\">
-                <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">
-                <button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>
-            </form>
         </div>
     </nav>
 ";
@@ -153,26 +143,16 @@ class __TwigTemplate_b444b3e104f154ae20035f0aa48b76afc2cde8a6b2a928c5222bee95bf2
                 </li>
                 <li class=\"nav-item dropdown\">
                     <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
-                        Séries
+                        Saisons
                     </a>
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
                         <a class=\"dropdown-item\" href=\"/wild/series/the-walking-dead\">The Walking Dead</a>
-                        <a class=\"dropdown-item\" href=\"/wild/series/the-haunting-of-hill-house\">The Haunting Of Hill House</a>
+                        <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
                         <a class=\"dropdown-item\" href=\"#\">- Une nouvelle série va arriver ! -</a>
                     </div>
                 </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link disabled\" href=\"#\">Saisons</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link disabled\" href=\"#\">Années</a>
-                </li>
             </ul>
-            <form class=\"form-inline my-2 my-lg-0\">
-                <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">
-                <button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>
-            </form>
         </div>
     </nav>
 {% endblock %}

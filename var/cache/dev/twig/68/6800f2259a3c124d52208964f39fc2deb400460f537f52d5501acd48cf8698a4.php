@@ -1453,6 +1453,6 @@ class __TwigTemplate_93cd063f0e2ffc78161bfa5d7c01f295058d2ebafd44741ed47898ae422
         </small>
     {%- endif -%}
 {%- endblock form_help %}
-", "bootstrap_4_layout.html.twig", "/home/salazhar/Documents/Symfony/Wild-Series/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_4_layout.html.twig");
+", "bootstrap_4_layout.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_4_layout.html.twig");
     }
 }

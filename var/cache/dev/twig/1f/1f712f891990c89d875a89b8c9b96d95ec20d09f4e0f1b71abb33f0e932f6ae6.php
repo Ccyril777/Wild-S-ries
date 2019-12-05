@@ -63,6 +63,6 @@ class __TwigTemplate_a2c178377a3f4b10ef5c4bc02383e35d8fe873cd96ed3930b19cb6e1491
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->widget(\$form) ?>
-", "@Framework/Form/hidden_row.html.php", "/home/salazhar/Documents/Symfony/Wild-Series/vendor/symfony/framework-bundle/Resources/views/Form/hidden_row.html.php");
+", "@Framework/Form/hidden_row.html.php", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/framework-bundle/Resources/views/Form/hidden_row.html.php");
     }
 }

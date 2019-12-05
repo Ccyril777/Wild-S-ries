@@ -1828,6 +1828,6 @@ class __TwigTemplate_bf75e098b27f49aec8247e7467446ed1bc052e468fc53daa85853166c2f
         </tbody>
     </table>
 {% endmacro %}
-", "@Doctrine/Collector/db.html.twig", "/home/sheitak/Wild Series/wild-series/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
+", "@Doctrine/Collector/db.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
     }
 }

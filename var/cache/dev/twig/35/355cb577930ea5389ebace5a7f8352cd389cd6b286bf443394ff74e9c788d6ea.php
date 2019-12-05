@@ -413,6 +413,6 @@ class __TwigTemplate_f1db30f63a0a2bff73db007ed4096d2ac4aee23cbf54063d8a76fab90fd
         </div>
     {% endfor %}
 {% endblock %}
-", "@Debug/Profiler/dump.html.twig", "/home/sheitak/Wild Series/wild-series/vendor/symfony/debug-bundle/Resources/views/Profiler/dump.html.twig");
+", "@Debug/Profiler/dump.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/debug-bundle/Resources/views/Profiler/dump.html.twig");
     }
 }

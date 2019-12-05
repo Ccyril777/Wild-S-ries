@@ -1006,6 +1006,6 @@ class __TwigTemplate_7bf4ecfab91945f94d43ffb2da9e028163ccbe047554dbb0620a35c745d
         {% endif %}
     {% endfor %}
 {% endblock %}
-", "@Swiftmailer/Collector/swiftmailer.html.twig", "/home/sheitak/Wild Series/wild-series/vendor/symfony/swiftmailer-bundle/Resources/views/Collector/swiftmailer.html.twig");
+", "@Swiftmailer/Collector/swiftmailer.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/swiftmailer-bundle/Resources/views/Collector/swiftmailer.html.twig");
     }
 }

@@ -490,6 +490,6 @@ class __TwigTemplate_264ae62a26d6ad9b4f7309e317317f0287a65ddff4cd5846ebe2027254f
         {% endif %}
     </div>
 </div>
-", "@Twig/Exception/exception.html.twig", "/home/sheitak/Wild Series/wild-series/vendor/symfony/twig-bundle/Resources/views/Exception/exception.html.twig");
+", "@Twig/Exception/exception.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/twig-bundle/Resources/views/Exception/exception.html.twig");
     }
 }

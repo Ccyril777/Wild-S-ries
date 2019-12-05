@@ -40,13 +40,14 @@ class Season
     private $programs;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\Episodes", mappedBy="seasons")
+     * @ORM\OneToMany(targetEntity="App\Entity\Episodes", mappedBy="season")
      */
     private $episodes;
 
     public function __construct()
     {
         $this->seasons = new ArrayCollection();
+        $this->episodes = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -54,14 +55,50 @@ class Season
         return $this->id;
     }
 
-    public function getProgram(): ?Program
+    public function getNumber(): ?int
     {
-        return $this->program;
+        return $this->number;
     }
 
-    public function setProgram(?Program $program): self
+    public function setNumber(int $number): self
     {
-        $this->program = $program;
+        $this->number = $number;
+
+        return $this;
+    }
+
+    public function getYear(): ?int
+    {
+        return $this->year;
+    }
+
+    public function setYear(int $year): self
+    {
+        $this->year = $year;
+
+        return $this;
+    }
+
+    public function getDescription(): ?string
+    {
+        return $this->description;
+    }
+
+    public function setDescription(string $description): self
+    {
+        $this->description = $description;
+
+        return $this;
+    }
+
+    public function getPrograms(): ?Program
+    {
+        return $this->programs;
+    }
+
+    public function setPrograms(?Program $programs): self
+    {
+        $this->programs = $programs;
 
         return $this;
     }
@@ -71,7 +108,7 @@ class Season
      */
     public function getEpisodes(): Collection
     {
-        return $this->Episodes;
+        return $this->episodes;
     }
 
     public function addEpisode(Episodes $episodes): self

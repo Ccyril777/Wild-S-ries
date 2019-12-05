@@ -73,6 +73,6 @@ class __TwigTemplate_4a0ed7ab9128930fb9d0229a468ccf13887b21c7f0ed02378b328259ea3
 <?php if (\$form_method !== \$method): ?>
     <input type=\"hidden\" name=\"_method\" value=\"<?php echo \$view->escape(\$method) ?>\" />
 <?php endif ?>
-", "@Framework/Form/form_start.html.php", "/home/salazhar/Documents/Symfony/Wild-Series/vendor/symfony/framework-bundle/Resources/views/Form/form_start.html.php");
+", "@Framework/Form/form_start.html.php", "/home/salazhar/Documents/Symfony/Wild Séries/vendor/symfony/framework-bundle/Resources/views/Form/form_start.html.php");
     }
 }
