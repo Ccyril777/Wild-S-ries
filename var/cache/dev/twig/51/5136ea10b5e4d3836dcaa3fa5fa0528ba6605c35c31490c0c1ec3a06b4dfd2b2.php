@@ -26,7 +26,7 @@ class __TwigTemplate_5e680a4355eb9d511d62e059e3f21d74bf97632e0b2b75d9de2b3e458a2
 
         $this->blocks = [
             'title' => [$this, 'block_title'],
-            'seasons' => [$this, 'block_seasons'],
+            'body' => [$this, 'block_body'],
         ];
     }
 
@@ -75,18 +75,18 @@ class __TwigTemplate_5e680a4355eb9d511d62e059e3f21d74bf97632e0b2b75d9de2b3e458a2
     }
 
     // line 5
-    public function block_seasons($context, array $blocks = [])
+    public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "seasons"));
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "seasons"));
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
         echo "    <section class=\"container-fluid media\">
-        <h2 class=\"mt-0\"> ~> ";
+        <h2 class=\"mt-0\">";
         // line 7
         echo twig_escape_filter($this->env, (isset($context["programName"]) || array_key_exists("programName", $context) ? $context["programName"] : (function () { throw new RuntimeError('Variable "programName" does not exist.', 7, $this->source); })()), "html", null, true);
         echo "</h2>
@@ -127,7 +127,7 @@ class __TwigTemplate_5e680a4355eb9d511d62e059e3f21d74bf97632e0b2b75d9de2b3e458a2
         // line 20
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("wild_index");
         echo "\" class=\"retour\">
-        Retour à l'accueil
+        Voir toutes les séries
     </a>
 ";
         
@@ -159,9 +159,9 @@ class __TwigTemplate_5e680a4355eb9d511d62e059e3f21d74bf97632e0b2b75d9de2b3e458a2
 
 {% block title %}Votre Série{% endblock %}
 
-{% block seasons %}
+{% block body %}
     <section class=\"container-fluid media\">
-        <h2 class=\"mt-0\"> ~> {{ programName }}</h2>
+        <h2 class=\"mt-0\">{{ programName }}</h2>
         {% for season in seasons %}
             <div class=\"mt-5 px-3\">
                 <div class=\"card mb-3 pt-3 col-xl-12 mx-auto\">
@@ -175,9 +175,9 @@ class __TwigTemplate_5e680a4355eb9d511d62e059e3f21d74bf97632e0b2b75d9de2b3e458a2
         {% endfor %}
     </section>
     <a href=\"{{ path('wild_index') }}\" class=\"retour\">
-        Retour à l'accueil
+        Voir toutes les séries
     </a>
 {% endblock %}
-", "wild/series.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/templates/wild/series.html.twig");
+", "wild/series.html.twig", "/home/salazhar/Documents/Symfony/Wild Série/templates/wild/series.html.twig");
     }
 }

@@ -29,9 +29,6 @@ class __TwigTemplate_c1dbeab3e984a89e00cadea6c500a613a923317758a6d831464a5153568
         $this->blocks = [
             'title' => [$this, 'block_title'],
             'stylesheets' => [$this, 'block_stylesheets'],
-            'category' => [$this, 'block_category'],
-            'seasons' => [$this, 'block_seasons'],
-            'episodes' => [$this, 'block_episodes'],
             'body' => [$this, 'block_body'],
             'javascripts' => [$this, 'block_javascripts'],
         ];
@@ -70,20 +67,11 @@ class __TwigTemplate_c1dbeab3e984a89e00cadea6c500a613a923317758a6d831464a5153568
         </header>
         ";
         // line 15
-        $this->displayBlock('category', $context, $blocks);
+        $this->displayBlock('body', $context, $blocks);
         // line 16
         echo "        ";
-        $this->displayBlock('seasons', $context, $blocks);
-        // line 17
-        echo "        ";
-        $this->displayBlock('episodes', $context, $blocks);
-        // line 18
-        echo "        ";
-        $this->displayBlock('body', $context, $blocks);
-        // line 19
-        echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 22
+        // line 19
         echo "        <script src=\"build/js/app.js\"></script>
     </body>
 </html>
@@ -106,7 +94,7 @@ class __TwigTemplate_c1dbeab3e984a89e00cadea6c500a613a923317758a6d831464a5153568
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Welcome !";
+        echo "Wild Série";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -139,60 +127,6 @@ class __TwigTemplate_c1dbeab3e984a89e00cadea6c500a613a923317758a6d831464a5153568
     }
 
     // line 15
-    public function block_category($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "category"));
-
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "category"));
-
-        
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
-
-        
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
-
-    }
-
-    // line 16
-    public function block_seasons($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "seasons"));
-
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "seasons"));
-
-        
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
-
-        
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
-
-    }
-
-    // line 17
-    public function block_episodes($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "episodes"));
-
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "episodes"));
-
-        
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
-
-        
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
-
-    }
-
-    // line 18
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -210,7 +144,7 @@ class __TwigTemplate_c1dbeab3e984a89e00cadea6c500a613a923317758a6d831464a5153568
 
     }
 
-    // line 19
+    // line 16
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -220,7 +154,7 @@ class __TwigTemplate_c1dbeab3e984a89e00cadea6c500a613a923317758a6d831464a5153568
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 20
+        // line 17
         echo "            ";
         echo $this->extensions['Symfony\WebpackEncoreBundle\Twig\EntryFilesTwigExtension']->renderWebpackScriptTags("app");
         echo "
@@ -245,7 +179,7 @@ class __TwigTemplate_c1dbeab3e984a89e00cadea6c500a613a923317758a6d831464a5153568
 
     public function getDebugInfo()
     {
-        return array (  224 => 20,  214 => 19,  196 => 18,  178 => 17,  160 => 16,  142 => 15,  129 => 8,  119 => 7,  100 => 6,  87 => 22,  84 => 19,  81 => 18,  78 => 17,  75 => 16,  73 => 15,  68 => 13,  63 => 10,  61 => 7,  57 => 6,  50 => 1,);
+        return array (  158 => 17,  148 => 16,  130 => 15,  117 => 8,  107 => 7,  88 => 6,  75 => 19,  72 => 16,  70 => 15,  65 => 13,  60 => 10,  58 => 7,  54 => 6,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -255,7 +189,7 @@ class __TwigTemplate_c1dbeab3e984a89e00cadea6c500a613a923317758a6d831464a5153568
     <head>
         <meta charset=\"UTF-8\">
         <!--<link rel=\"stylesheet\" href=\"build/css/app.css\">-->
-        <title>{% block title %}Welcome !{% endblock %}</title>
+        <title>{% block title %}Wild Série{% endblock %}</title>
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
@@ -264,9 +198,6 @@ class __TwigTemplate_c1dbeab3e984a89e00cadea6c500a613a923317758a6d831464a5153568
         <header>
             {{ include(\"/wild/navbar.html.twig\") }}
         </header>
-        {% block category %}{% endblock %}
-        {% block seasons %}{% endblock %}
-        {% block episodes %}{% endblock %}
         {% block body %}{% endblock %}
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
@@ -274,6 +205,6 @@ class __TwigTemplate_c1dbeab3e984a89e00cadea6c500a613a923317758a6d831464a5153568
         <script src=\"build/js/app.js\"></script>
     </body>
 </html>
-", "base.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/templates/base.html.twig");
+", "base.html.twig", "/home/salazhar/Documents/Symfony/Wild Série/templates/base.html.twig");
     }
 }

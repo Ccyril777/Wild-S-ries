@@ -1,7 +1,6 @@
 <?php
 // src/Controller/WildController.php
 namespace App\Controller;
-
 use App\Repository\CategoryRepository;
 use App\Repository\EpisodesRepository;
 use App\Repository\ProgramRepository;
@@ -14,7 +13,6 @@ use App\Entity\Category;
 use App\Entity\Program;
 use App\Entity\Episodes;
 use App\Entity\Season;
-
 /**
  * @Route("/wild", name="wild_")
  */
@@ -31,7 +29,6 @@ Class WildController extends AbstractController
         $programs = $this->getDoctrine()
             ->getRepository(Program::class)
             ->findAll();
-
         if (!$programs)
         {
             throw $this->createNotFoundException
@@ -39,7 +36,6 @@ Class WildController extends AbstractController
                 'No program found in program\'s table.'
             );
         }
-
         return $this->render
         (
             'wild/index.html.twig',
@@ -59,19 +55,16 @@ Class WildController extends AbstractController
             throw $this
                 ->createNotFoundException('Aucune série sélectionnée, veuillez choisir une série');
         }
-
         $slug = str_replace("-", " ", "$slug");
         $slug = ucwords($slug);
         $program = $this->getDoctrine()
             ->getRepository(Program::class)
             ->findOneBy(['title' => mb_strtolower($slug)]);
-
         return $this->render('wild/show.html.twig', [
             'program' => $program,
             'slug'  => $slug,
         ]);
     }
-
      /**
      * @param string $categoryName The category
      * @Route("/category/{categoryName<^[a-z]+$>}", defaults={"categoryName" = null}, name="show_category")
@@ -82,19 +75,16 @@ Class WildController extends AbstractController
         $category = $categoryRepository->findBy(
             ['name' => $categoryName]
         );
-
         $programs = $programRepository->findBy(
                 ['category' => $category],
                 ['id' => 'DESC'],
                 3
             );
-
         return $this->render('wild/category.html.twig', [
             'categoryName' => ucwords($categoryName),
             'programs' => $programs
         ]);
     }
-
      /**
      * @param string $programName The Program Name
      * @Route("/series/{programName<^[a-z0-9-]+$>}", defaults={"programName" = null}, name="series")
@@ -104,23 +94,19 @@ Class WildController extends AbstractController
      {
          $programName = str_replace("-", " ", "$programName");
          $programName = ucwords($programName);
-
-         $programs = $programRepository->findBy(
+         $program = $programRepository->findBy(
              ['title' => $programName]
          );
-
          $seasons = $seasonRepository->findBy(
-             ['programs' => $programs],
+             ['programs' => $program],
              ['id' => 'ASC'],
              5
          );
-
          return $this->render('wild/series.html.twig', [
              'programName' => $programName,
              'seasons' => $seasons
          ]);
      }
-
      /**
      * @param int $id The id of season
      * @Route("/saison/{id<^[0-9]+$>}", defaults={"id" = null}, name="season")
@@ -131,14 +117,27 @@ Class WildController extends AbstractController
          $season = $seasonRepository->findOneBy(
              ['id' => $id]
          );
-
          $program = $season->getPrograms();
          $episodes = $season->getEpisodes();
-
-         return $this->render('wild/episode.html.twig', [
+         return $this->render('wild/seasons.html.twig', [
              'program' => $program,
              'season' => $season,
              'episodes' => $episodes
          ]);
      }
+    /**
+     * @param int $id The id of episodes
+     * @Route("/episode/{id<^[0-9]+$>}", defaults={"id" = null}, name="episode")
+     * @return Response
+     */
+    public function showByEpisode(Episodes $episodes):Response
+    {
+        $season = $episodes->getSeason();
+        $program = $season->getPrograms();
+        return $this->render('wild/episode.html.twig', [
+            'season' => $season,
+            'episode' => $episodes,
+            'program' => $program
+        ]);
+    }
 }

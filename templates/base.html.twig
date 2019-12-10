@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <!--<link rel="stylesheet" href="build/css/app.css">-->
-        <title>{% block title %}Welcome !{% endblock %}</title>
+        <title>{% block title %}Wild Série{% endblock %}</title>
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
@@ -12,9 +12,6 @@
         <header>
             {{ include("/wild/navbar.html.twig") }}
         </header>
-        {% block category %}{% endblock %}
-        {% block seasons %}{% endblock %}
-        {% block episodes %}{% endblock %}
         {% block body %}{% endblock %}
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}

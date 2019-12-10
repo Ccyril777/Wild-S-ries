@@ -1,25 +1,23 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Liste des Episodes{% endblock %}
+{% block title %}Episode : {{ episode.title }}{% endblock %}
 
-{% block episodes %}
+{% block body %}
     <section>
-        <h2>Saison N°{{ season.number }} de {{ program.title }}</h2>
-        <div>
-        <h4>{{ season.description }}</h4>
+        <h2 href="#">Saison {{ season.number }} de {{ program.title }}</h2>
+        <p>{{ program.summary }}</p>
         </div>
-        {% for episode in episodes %}
             <div>
-                <div>
-                    <div>
-                        <h2 href="#">{{ episode.number }} - {{ episode.title }}</h2>
-                        <p>{{ episode.summary }}</p>
-                    </div>
-                </div>
+                <h2 href="#">Episode N° {{ episode.number }} : {{ episode.title }}</h2>
+                <p>{{ episode.summary }}</p>
             </div>
-        {% endfor %}
+        </div>
     </section>
-    <a href="{{ path('wild_index') }}" class="retour">
-        Retour à l'accueil
+        <a class="mt-0" href="{{ path('wild_season', { 'id': season.id }) }}">Voir toutes les épisodes de la saison {{ season.number }}</a>
+        <br />
+        <a class="mt-0" href="/wild/series/the-walking-dead">Voir tous les saisons {{ program.title }}</a>
+        <br />
+        <a href="{{ path('wild_index') }}" class="retour">
+        Voir toutes les séries
     </a>
 {% endblock %}

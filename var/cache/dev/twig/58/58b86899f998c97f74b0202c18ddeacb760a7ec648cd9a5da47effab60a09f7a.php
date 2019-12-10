@@ -69,7 +69,7 @@ class __TwigTemplate_fb7143871f717913090432d3930a9cb54978e9cd9ac6c408abe3753677d
     <html lang=\"en\">
         <head>
             <meta charset=\"UTF-8\">
-            <title>Wild Séries</title>
+            <title>Wild Série</title>
         </head>
         <body>
             <h1>";
@@ -111,13 +111,13 @@ class __TwigTemplate_fb7143871f717913090432d3930a9cb54978e9cd9ac6c408abe3753677d
     <html lang=\"en\">
         <head>
             <meta charset=\"UTF-8\">
-            <title>Wild Séries</title>
+            <title>Wild Série</title>
         </head>
         <body>
             <h1>{{ welcome }}</h1>
         </body>
     </html>
 {% endblock %}
-", "wild/home.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/templates/wild/home.html.twig");
+", "wild/home.html.twig", "/home/salazhar/Documents/Symfony/Wild Série/templates/wild/home.html.twig");
     }
 }

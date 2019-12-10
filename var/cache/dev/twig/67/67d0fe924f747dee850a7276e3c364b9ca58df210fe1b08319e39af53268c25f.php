@@ -65,7 +65,7 @@ class __TwigTemplate_b0df698ae8d322173a09e848b39b54fe452d6f07cbf0ca4624b859f16c7
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "All programs";
+        echo "Nos Séries";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -85,7 +85,7 @@ class __TwigTemplate_b0df698ae8d322173a09e848b39b54fe452d6f07cbf0ca4624b859f16c7
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <h1>Toutes nos séries : </h1>
+        echo "    <h1>Toutes les séries présentes sur le site</h1>
     ";
         // line 7
         $context['_parent'] = $context;
@@ -173,10 +173,10 @@ class __TwigTemplate_b0df698ae8d322173a09e848b39b54fe452d6f07cbf0ca4624b859f16c7
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %}All programs{% endblock %}
+{% block title %}Nos Séries{% endblock %}
 
 {% block body %}
-    <h1>Toutes nos séries : </h1>
+    <h1>Toutes les séries présentes sur le site</h1>
     {% for program in programs %}
         <div>
             <h2>{{ loop.index }} / {{ program.title }} - Catégorie : {{ program.category.name }}</h2>
@@ -189,6 +189,6 @@ class __TwigTemplate_b0df698ae8d322173a09e848b39b54fe452d6f07cbf0ca4624b859f16c7
         Retour à l'accueil
     </a>
 {% endblock %}
-", "wild/index.html.twig", "/home/salazhar/Documents/Symfony/Wild Séries/templates/wild/index.html.twig");
+", "wild/index.html.twig", "/home/salazhar/Documents/Symfony/Wild Série/templates/wild/index.html.twig");
     }
 }

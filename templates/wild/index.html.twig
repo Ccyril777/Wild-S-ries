@@ -1,9 +1,9 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}All programs{% endblock %}
+{% block title %}Nos Séries{% endblock %}
 
 {% block body %}
-    <h1>Toutes nos séries : </h1>
+    <h1>Toutes les séries présentes sur le site</h1>
     {% for program in programs %}
         <div>
             <h2>{{ loop.index }} / {{ program.title }} - Catégorie : {{ program.category.name }}</h2>

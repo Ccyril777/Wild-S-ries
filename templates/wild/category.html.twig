@@ -1,8 +1,8 @@
 {% extends 'base.html.twig' %}
 
-{% block category %}
+{% block body %}
     <section class="container-fluid media">
-            <h2 class="mt-0">Catégorie : {{ categoryName }}</h2>
+            <h2 class="mt-0">Categorie : {{ categoryName }}</h2>
             {% for program in programs %}
             <div class="mt-5 px-3">
                 <div class="card mb-3 pt-3 col-xl-8 mx-auto">
@@ -16,6 +16,6 @@
             {% endfor %}
     </section>
     <a href="{{ path('wild_index') }}" class="retour">
-        Retour à l'accueil
+        Voir toutes les séries
     </a>
 {% endblock %}
